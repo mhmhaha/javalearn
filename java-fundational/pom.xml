@@ -2,18 +2,14 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0"
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>javalearn</artifactId>
+        <groupId>net.mhm.java</groupId>
+        <version>1.0-20230415-SNAPSHOT</version>
+    </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>net.mhm.java</groupId>
-    <artifactId>javalearn</artifactId>
-    <packaging>pom</packaging>
-    <version>1.0-20230415-SNAPSHOT</version>
-    <modules>
-        <module>java-fundatioanl</module>
-        <module>java-fundatioanl1</module>
-        <module>java-fundatioanl</module>
-        <module>java-fundational</module>
-    </modules>
+    <artifactId>java-fundational</artifactId>
 
     <properties>
         <maven.compiler.source>11</maven.compiler.source>
