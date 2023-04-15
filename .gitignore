@@ -1,0 +1,21 @@
+# project logs
+logs/
+out/
+
+# maven ignore
+target/
+*.jar
+*.war
+*.ear
+*.zip
+*.tar
+*.tar.gz
+
+# idea ignore
+.idea/
+.vertx/*
+*target*
+.idea/*
+*.ipr
+*.iml
+*.iws
